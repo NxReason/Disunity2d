@@ -1,0 +1,10 @@
+root = true
+
+[*.cs]
+csharp_new_line_before_open_brace = none
+
+indent_style = space
+indent_size = 2
+
+sharp_space_after_keywords_in_control_flow_statements = true
+csharp_space_around_binary_operators = before_and_after
