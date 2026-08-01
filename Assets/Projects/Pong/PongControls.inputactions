@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "PongControls",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "ae6d89a7-2d19-4b58-917a-97e9c7a0f87f",
+            "actions": [
+                {
+                    "name": "Slide",
+                    "type": "Button",
+                    "id": "5e7cc3fe-5231-404c-96d1-9f2585dc734d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "387867b8-e5d2-4ce4-9913-a985a3f42a4c",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slide",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Positive",
+                    "id": "fbb082a0-2db9-476c-8389-6eec83313312",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slide",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Negative",
+                    "id": "3f4c5caa-0a3d-4edf-8c93-00760d677e31",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slide",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
