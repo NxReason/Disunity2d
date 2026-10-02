@@ -1,0 +1,8 @@
+# build output
+bin/
+obj/
+
+# misc
+.vs/
+.DS_Store
+Thumbs.db
